@@ -8,7 +8,7 @@ Run any project with `uv run <file>.py` (dependencies are declared inside the fi
 ## Fundamentals
 
 - [x] 01-tokenizer — BPE tokenizer from scratch. Shows: text becomes tokens; token count differs from word count.
-- [ ] 02-embeddings — Semantic search over sentences. Shows: meaning as vectors, cosine similarity.
+- [x] 02-embeddings — Semantic search over sentences. Shows: meaning as vectors, cosine similarity.
 - [ ] 03-bigram-lm — Bigram language model. Shows: next-token prediction is the whole game.
 - [ ] 04-attention — Self-attention in numpy with a weight plot. Shows: how tokens look at each other.
 - [ ] 05-tiny-gpt — Tiny GPT trained on a small text. Shows: a full transformer trains end to end on a laptop.
@@ -34,3 +34,4 @@ Run any project with `uv run <file>.py` (dependencies are declared inside the fi
 
 <!-- The task appends one line per build: date, project, one-sentence result. -->
 2026-11-17 01-tokenizer: byte-level BPE with 60 merges learns words like " the " and "cat " from frequency alone; 2.70 bytes/token, rare words split into many tokens.
+2026-11-19 02-embeddings: PPMI + SVD word vectors (10 numbers each) learned from 20 sentences; all 4 search queries find the right document with zero shared words, where keyword search finds nothing.

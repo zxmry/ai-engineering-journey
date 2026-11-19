@@ -14,8 +14,8 @@ modern AI work. Each one is small enough to read in a few minutes and run on a l
 | # | Project | What it shows | Status |
 |---|---------|---------------|--------|
 | 01 | [Tokenizer](01-tokenizer/) | Text becomes tokens; token count is not word count | ✅ Done |
-| 02 | Embeddings | Meaning as vectors, cosine similarity | ⏳ Next |
-| 03 | Bigram LM | Next-token prediction is the whole game | ⬜ |
+| 02 | [Embeddings](02-embeddings/) | Meaning as vectors, cosine similarity | ✅ Done |
+| 03 | Bigram LM | Next-token prediction is the whole game | ⏳ Next |
 | 04 | Attention | How tokens look at each other | ⬜ |
 | 05 | Tiny GPT | A full transformer trained on a laptop | ⬜ |
 | 06 | Sampling | Temperature, top-k, top-p | ⬜ |
